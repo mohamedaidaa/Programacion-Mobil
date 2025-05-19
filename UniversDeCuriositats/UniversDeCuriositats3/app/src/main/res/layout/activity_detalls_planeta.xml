@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center">
+
+        <!-- Imagen del planeta -->
+        <ImageView
+            android:id="@+id/ivImatgeDetall"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/descripcion_imagen_planeta" />
+
+        <TextView
+            android:id="@+id/tvNomDetall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcioDetall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:textColorSecondary" />
+
+        <Button
+            android:id="@+id/btnReproAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reproducir"
+            android:layout_marginTop="16dp" />
+
+        <ImageButton
+            android:id="@+id/btnFavorit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_border"
+            android:contentDescription="@string/fav"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginTop="12dp"
+            android:tint="?android:textColorPrimary"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
+

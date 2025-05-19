@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UniversDeCuriositats</string>
+    <string name="desc_imatge_planeta" />
+    <string name="descripcion_imagen_planeta" />
+    <string name="fav">fav</string>
+    <string name="reproducir">Reproducir audio</string>
+</resources>
